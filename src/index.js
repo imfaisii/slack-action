@@ -78,8 +78,8 @@ function generateSlackMessage(text) {
             {
                 fallback: text,
                 color: getColor(status),
-                footer: `<https://craftech.io|Powered By Craftech>`,
-                footer_icon: `https://craftech.io/mail-signature/craftech-logo.png`,
+                footer: `<https://megcrm.co.uk|Powered By MEG>`,
+                footer_icon: `https://manchesterenergygrants.co.uk/wp-content/uploads/2023/02/manchester-logo.png`,
                 ts: Math.floor(Date.now() / 1000),
                 "fields": [
                     {
